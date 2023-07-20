@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap');
+
+:root {
+	font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+	line-height: 1.5;
+	font-weight: 400;
+
+	--bg-primary: #0e1014;
+	--text-primary: #e4e5ea;
+	--text-secondary: #656566;
+	--bg-blue: #4077f3;
+	--gr-text-small: linear-gradient(90deg, #fcb045 36.99%, #fd1d1d 100%);
+	--gr-text-big: linear-gradient(92deg, #fcb045 27.14%, #ff3f78 121.36%),
+		#e4e5ea;
+}
+
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	border: none;
+	box-sizing: border-box;
+}
+
+a,
+a:visited {
+	color: inherit;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+}
+
+a:focus,
+a:active,
+a:hover {
+	outline: none;
+}
+
+aside,
+nav,
+footer,
+header,
+main,
+section {
+	display: block;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+	font-size: inherit;
+	font-weight: inherit;
+	line-height: inherit;
+}
+
+img,
+svg {
+	vertical-align: top;
+	max-width: 100%;
+	height: auto;
+}
+
+input,
+textarea,
+button,
+select _ {
+	font-family: inherit;
+	font-size: inherit;
+	color: inherit;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button,
+input[type='submit'] {
+	display: inline-block;
+	box-shadow: none;
+	background-color: transparent;
+	background: none;
+	cursor: pointer;
+}
+
+input:active,
+input:focus,
+button:active,
+button:focus {
+	outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+ul,
+ol {
+	list-style: none;
+}
+
+a:hover {
+	color: #fcb045;
+}

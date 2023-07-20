@@ -1,0 +1,57 @@
+.mainWrapper {
+	position: relative;
+	overflow-x: hidden;
+	min-height: 100vh;
+	width: 100%;
+	background-color: var(--bg-primary);
+	color: var(--text-primary);
+}
+
+
+
+.Ellipse1 {
+	width: 259px;
+	height: 259px;
+	border-radius: 311px;
+	opacity: 0.5;
+	background: #961a1a;
+	filter: blur(196px);
+	position: absolute;
+	top: 251px;
+	left: -102px;
+	z-index: 0;
+}
+
+.Ellipse2 {
+	width: 311px;
+	height: 311px;
+	border-radius: 259px;
+	opacity: 0.5;
+	background: #833ab4;
+	filter: blur(196px);
+	position: absolute;
+	top: -154px;
+	right: 50%;
+	z-index: 0;
+}
+
+.ballSmall {
+	bottom: 35%;
+	right: 35%;
+}
+
+.ballMedium {
+	top: 0;
+	right: 40%;
+}
+
+.ballBig {
+	top: 5%;
+	left: 40%;
+}
+
+@media (max-width: 760px) {
+	.mainContainer {
+		max-width: 320px;
+	}
+}
